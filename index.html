@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar" >
+        <header>
+            <div class="nav">
+                <div class="logo">
+                    <h3>Akash</h3>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a class="hover-line" href="#home">Home</a></li>
+                        <li><a class="hover-line" href="#about">About</a></li>
+                        <!-- Adjusted href value -->
+                        <li><a class="hover-line" href="#skills">Skills</a></li>
+                        <li><a class="hover-line" href="#education">Education</a></li>
+                        <li><a class="hover-line" href="#work">Work</a></li>
+                        <li><a class="hover-line" href="#experience">Experience</a></li>
+                        <li><a class="hover-line" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="main home" id="home">
+        <div class="back-video">
+            <video src="./Assets/video/back.mp4" autoplay muted loop></video>
+            <!-- Added space after src attribute -->
+        </div>
+        <div class="left-text">
+            <div class="heading">
+                <h2>Hi There, <br>i'm Akash<span id="sp"> Nandoliya</span></h2>
+                <p>I Am Into <span class="typing-text"></span> </p>
+                <button class="bt">About  Me <i class='bx bxs-chevron-down-circle arr'></i> </button>
+                <div class="media-buttons">
+                    <a href="#" style="background-color: #4267b2;" class="link linkedin">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="#" style="background-color: #000000;" class="link github">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" style="background-color: #1da1f2;" class="link twitter">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="#" style="background-color: #ff0000;" class="link instagram">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" style="background-color: #2e5af9;" class="link facebook">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right-img">
+            <img class="tilt image" src="./Assets/Images/hero1.png" alt="">
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="aboutme">
+                <h3><i class='bx bxs-user'></i>About me</h3>
+            </div>
+            <div class="aboutcontent">
+                <div class="left">
+                    <img class="tilt" src="./Assets/Images/_DSC6964Normal.jpg" alt="">
+                </div>
+                <div class="right">
+                    <h2>I'm Akash</h2>
+                    <h4>Full Stack Developer</h4>
+                    <p id="para1"> I am a Full-Stack developer based in Gujrat, India. I am an Information Technology graduate from MKBU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>   
+                    
+                    <p id="email"><span style="color:#3044FF;">Email :</span>  nandoliyaakash990@gmail.com</p>
+                    <p id="place"><span style="color:#3044FF;">Place :</span>  gujrat, India - 412206    </p>      
+                </div>
+            </div>
+        </div>
+    <div class="skills" id="skills">
+        <div class="head">
+            <i class='bx bx-code-block'></i>
+            <h2><span>Skills & </span>Abilities</h2>
+        </div>
+        <div id="skill-container" class="skill-container">
+           
+        </div>  
+    </div>
+
+    <!-- Education -->
+    <div class="education" id="education">
+        <div class="edu">
+            <i class='bx bxs-school' ></i>
+            <h2>My Education</h2>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://www.collegebatch.com/static/clg-gallery/parul-university-vadodara-226054.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>Master Of Computer Application</h1>
+                <p>Parul Institute of Engineering & Technology</p>
+                <h2>Parsuing | 2023-2025</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgBYkCCmoHueQKIBy_G2ZLnhw0dksJU8fnsJEsmY4zOo_oWpBATVA_YjsVKgBaVwTUtk&usqp=CAU" alt="">
+            </div>
+            <div class="details">
+                <h1>Bachelor Of Computer Application</h1>
+                <p>Shailesh Chandulal BCA College -Botad</p>
+                <h2>Completed | 2020-2023</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <div class="head">
+            <i class='bx bxs-chat' ></i>
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="container">
+            <div class="img2">
+                <img src="https://www.manageminds.co.uk/app/uploads/illustration-contact.svg" alt="">
+            </div>
+            <div class="data">
+                <div>
+                    <input type="text" placeholder="Name" >
+                </div>
+                <div>
+                    <input type="email"placeholder="Email">
+                </div>
+                <div>
+                    <input type="text"placeholder="Phone">
+                </div>
+                <textarea name="" placeholder="Message" id="" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- typed.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
