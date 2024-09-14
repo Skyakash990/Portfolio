@@ -1,0 +1,34 @@
+[
+ 
+  {
+    "name": "Glorious Gadgets",
+    "desc": "Ecommerce website landing page built using PHP.",
+    "image": "GloriousGadgets",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/Skyakash990/gloriousgadgets"
+    }
+  },
+  {
+    "name": "Weather App",
+    "desc": "Basic weather app built using React Js that show Current Wether of Countries and City .",
+    "image": "Wetherapp",
+    "category": "basicweb",
+    "links": {
+      "view": "https://wether-ncw231ypb-skyakash990s-projects.vercel.app/",
+      "code": "https://github.com/Skyakash990/Wether-App"
+    }
+  },
+  {
+    "name": "JavaCoffee Web",
+    "desc": "Basic order maker of coffee built using HTML, CSS ,Js .",
+    "image": "Javacoffee",
+    "category": "basicweb",
+    "links": {
+      "view": "https://skyakash990.github.io/javacoffee/",
+      "code": "https://github.com/Skyakash990/javacoffee"
+    }
+  }
+
+]
