@@ -15,6 +15,7 @@ Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 
 ## 📌 Sneak Peek of Main Page 🙈 :
 ![heroo](https://github.com/user-attachments/assets/ee6cee1c-9db7-422e-8a9a-e9f14190b5b0)
+![project](https://github.com/user-attachments/assets/c2cb6318-06f0-4e8f-842a-2d92e701eee0)
 
 
 
