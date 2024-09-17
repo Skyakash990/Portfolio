@@ -29,6 +29,16 @@
       "view": "https://skyakash990.github.io/javacoffee/",
       "code": "https://github.com/Skyakash990/javacoffee"
     }
+  },
+  {
+    "name": "Education website",
+    "desc": "Education website using react js.",
+    "image": "educity",
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": ""
+    }
   }
 
 ]
