@@ -2,19 +2,20 @@
  
   {
     "name": "Glorious Gadgets",
-    "desc": "Ecommerce website landing page built using PHP.",
+    "desc": "A sleek and modern eCommerce website landing page built with PHP, designed for showcasing and selling gadgets seamlessly.",
     "image": "GloriousGadgets",
-    "category": "basicweb",
+    "category": "php",
     "links": {
       "view": "#",
       "code": "https://github.com/Skyakash990/gloriousgadgets"
     }
   },
+ 
   {
     "name": "Weather App",
-    "desc": "Basic weather app built using React Js that show Current Wether of Countries and City .",
+    "desc": "A simple yet effective weather application built with React.js, allowing users to check real-time weather conditions for various cities and countries.",
     "image": "Wetherapp",
-    "category": "basicweb",
+    "category": "react",
     "links": {
       "view": "https://wether-ncw231ypb-skyakash990s-projects.vercel.app/",
       "code": "https://github.com/Skyakash990/Wether-App"
@@ -22,7 +23,7 @@
   },
   {
     "name": "JavaCoffee Web",
-    "desc": "Basic order maker of coffee built using HTML, CSS ,Js .",
+    "desc": "An interactive coffee order maker built using HTML, CSS, and JavaScript, offering users a smooth experience in customizing their coffee orders.",
     "image": "Javacoffee",
     "category": "basicweb",
     "links": {
@@ -31,14 +32,45 @@
     }
   },
   {
+    "name": "Spotify clone",
+    "desc": "A visually stunning Spotify clone built using HTML and CSS, replicating the original design with modern layout.",
+    "image": "Spotify",
+    "category": "frontend",
+    "links": {
+      "view": "https://spotify-ak.netlify.app/",
+      "code": "https://github.com/Skyakash990/Spotify"
+    }
+  },
+  {
     "name": "Education website",
-    "desc": "Education website using react js.",
+    "desc": "A dynamic and user-friendly educational website built using React.js, designed to provide learning resources and interactive content.",
     "image": "educity",
-    "category": "mern",
+    "category": "react",
     "links": {
       "view": "",
       "code": ""
     }
+  },
+  {
+    "name": "Otarea.in",
+    "desc": "A visually appealing UI design for the Otarea website, focused on a seamless and modern user experience.",
+    "image": "Otarea",
+    "category": "frontend",
+    "links": {
+      "view": "https://otareoin.netlify.app/",
+      "code": "https://github.com/Skyakash990/Otarea.in-UI"
+    }
+  },
+  {
+    "name": "Responsive Ui",
+    "desc": "A fully responsive user interface built with HTML and CSS, ensuring optimal display and functionality across all devices.",
+    "image": "Responsive-ui",
+    "category": "frontend",
+    "links": {
+      "view": "https://responsive-ui1.netlify.app/",
+      "code": "https://github.com/Skyakash990/Responsive-ui"
+    }
   }
+ 
 
 ]
